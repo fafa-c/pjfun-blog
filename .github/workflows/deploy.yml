@@ -19,10 +19,9 @@ jobs:
         with:
           node-version: 20
           cache: 'pnpm'
-      - name: Enable corepack
-        run: corepack enable
-      - run: pnpm install
-      - run: pnpm build
+      # 使用 npx 运行 pnpm，无需全局安装
+      - run: npx pnpm install
+      - run: npx pnpm build
       - uses: actions/upload-pages-artifact@v3
         with:
           path: dist
