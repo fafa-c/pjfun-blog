@@ -1,10 +1,10 @@
 export const SITE_CONFIG = {
-  icon: 'Pj',
-  title: 'Pjfun Blog',
-  description: '一个现代化的个人博客和技术分享平台',
+  icon: 'Fa',
+  title: 'Fafa Blog',
+  descriptionFafa: 'fafa的个人博客',
   author: 'Simon',
-  keywords: ['博客', '技术分享', '前端开发', 'Vue', 'TypeScript'],
-  email:'pjfun@aliyun.com',
+  keywords: ['博客', 'Live2D', 'Animation', 'AE', 'Game'],
+  email:'dcfafa0109@gmail.com',
   socialLinks: {
     github: 'https://github.com/LXC-9349/pjfun-blog',
     Telegram: 'https://t.me/pjfun_top',
